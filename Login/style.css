@@ -86,3 +86,46 @@ h3{
     cursor: pointer;
     background-color: rgba(15, 197, 8, 0.989);
 }
+
+@media only screen and (max-width: 853px){
+    .form {
+        height: 23vh;
+        width: 75vw;
+        border-radius: 6px;
+    }
+    h3 {
+        
+        margin-top: 1em;
+        font-size: 18px;
+    }   
+    .inputdivs {
+        width: 75vw;
+        height: 8vh;
+        margin-top: 10px;
+        justify-content: space-between;
+    }
+    .username, .pwd {
+        width: 81%;
+        padding: 7px 45px 7px 6px;
+        font-size: 12px;
+        letter-spacing: 1px;
+    }
+    .footer {
+        display: inline-flex;
+        /* width: 36vw; */
+        margin-top: 12px;
+        margin-left: 2.2em;
+        align-items: center;
+        justify-content: space-between;
+        width: 57vw;
+    }
+    .signup,.forgot {
+        font-size: 15px;
+    
+    }
+    .submit {
+        padding: 5px 4em;
+        font-size: 12px;
+        margin: 1.4em 0 0 6.8em;
+    }
+}
